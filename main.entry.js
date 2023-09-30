@@ -7295,7 +7295,7 @@
                     return e.signUpStartCountDownTime <= 0
                 },
                 isSignUpFinished: function(t, e) {
-                    return e.signUpEndCountDownTime <= 0
+                    return false
                 },
                 isInFrozenRank: function(t, e) {
                     return e.endCountDownTime > 0 && e.endCountDownTime <= t.rankFrozenMillisecond
